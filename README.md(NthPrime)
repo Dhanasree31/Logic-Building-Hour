@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+int NthPrime(int input1)
+{
+  int count=0,pcount=0,i;
+  for(i=2;i>0;i++){
+    pcount=0;
+    for(int j=2;j<1;j++){
+      if(i%j==0){
+        pcount=1;
+        break;
+      }
+}
+if(pcount==0)
+  count++;
+if(count==input1)
+  return i;
+}
+return 0;
+}
